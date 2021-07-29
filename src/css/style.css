@@ -133,7 +133,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover>a i {
+.nav-menu a:hover i, .nav-menu .active:focus i  {
+  color: #006996;
+}
+.nav-menu .active i , .nav-menu li:hover>a i{
   color: #d3374a;
 }
 
@@ -378,11 +381,16 @@ section {
   padding-bottom: 310px;
 }
 
+.skills #table {
+  border-collapse: separate;
+  border-spacing: 0 30px;
+}
+
 /*--------------------------------------------------------------
 # hobbies
 --------------------------------------------------------------*/
 .hobbies {
-  padding-bottom: 400px;
+  padding-bottom: 310px;
 }
 
 .hobbies .points {
@@ -428,7 +436,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 500px;
+  padding-bottom: 300px;
 }
 
 .contact .info {
