@@ -216,15 +216,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #fff;
   padding-top: 10px;
-  /*
-  text-decoration: underline;
-  text-decoration-color: #006996;
-  text-decoration-style: solid;
-  */
 }
 
 #hero p {
   color: #fff;
+  padding-top: 10px;
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
 }
