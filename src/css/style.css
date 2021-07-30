@@ -17,7 +17,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Comic Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -215,18 +215,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  padding-top: 10px
+  padding-top: 10px;
+  /*
+  text-decoration: underline;
+  text-decoration-color: #006996;
+  text-decoration-style: solid;
+  */
 }
 
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p #one {
-  color: #d3374a;
+  font-size: 30px;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #white;
@@ -236,6 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #d3374a;
   padding-bottom: 4px;
   letter-spacing: 1px;
+  font-size: 26px;
   border-bottom: 3px solid #white;
 }
 
@@ -594,12 +599,30 @@ section {
   opacity: 1;
 }
 
+/*--------------------------------------------------------------
+No selecting
+--------------------------------------------------------------*/
+.noselectimg {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
