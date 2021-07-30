@@ -93,6 +93,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.selectorimg {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -133,10 +142,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active:focus i  {
+.nav-menu a:hover i, .nav-menu .active:focus i {
   color: #006996;
 }
-.nav-menu .active i , .nav-menu li:hover>a i{
+
+.nav-menu .active i, .nav-menu li:hover>a i {
   color: #d3374a;
 }
 
@@ -183,7 +193,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: #050d18;
+  opacity: 0.3;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -199,11 +210,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 400px 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  padding-top: 10px
 }
 
 #hero p {
@@ -213,7 +225,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+#hero p #one {
+  color: #d3374a;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #white;
+}
+
+#hero p #two {
   color: #d3374a;
   padding-bottom: 4px;
   letter-spacing: 1px;
@@ -573,4 +592,14 @@ section {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
