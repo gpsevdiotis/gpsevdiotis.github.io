@@ -263,7 +263,7 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 1310px;
+  width: 1280px;
   height: 2px;
   background: #d3374a;
   bottom: 0;
@@ -284,7 +284,6 @@ section {
 }
 
 .about .content ul {
-  list-style: none;
   padding: 0;
 }
 
