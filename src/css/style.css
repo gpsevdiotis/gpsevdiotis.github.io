@@ -436,7 +436,7 @@ section {
   text-decoration: none;
 }
 
-.resume .references-item{
+.resume .references-item {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -457,14 +457,14 @@ section {
 }
 
 .carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 600px;
-    min-height: 500px;
-    object-fit: fill;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  min-height: 500px;
+  object-fit: fill;
 }
 
 .hobbies .points {
@@ -537,10 +537,9 @@ section {
   color: #050d18;
 }
 
-.contact .info .whatsapp #whatsapp{
+.contact .info .whatsapp #whatsapp {
   padding: 10px 0 0 60px;
 }
-
 
 .contact .info p {
   padding: 0 0 10px 60px;
@@ -548,7 +547,7 @@ section {
   font-size: 18px;
 }
 
-.contact .info .email:hover i, .contact .info .discord:hover i, .contact .info .phone:hover i {
+.contact .info .phone:hover i, .contact .info .whatsapp:hover i, .contact .info .email:hover i, .contact .info .discord:hover i {
   background: #d3374a;
   color: #fff;
 }
