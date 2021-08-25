@@ -465,8 +465,11 @@ section {
 /*--------------------------------------------------------------
 # hobbies
 --------------------------------------------------------------*/
+.hobbies{
+  height: 100vh;
+}
 .carousel .carousel-item {
-  height: 600px;
+  height: 80vh;
 }
 
 .carousel-item img {
@@ -474,8 +477,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  height: 600px;
-  min-height: 500px;
+  height: auto;
   object-fit: fill;
 }
 
@@ -484,50 +486,16 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  height: 600px;
-  min-height: 500px;
+  height: auto;
   object-fit: fill;
 }
 
-
-.hobbies .points {
-  padding: 30px;
-  background: #fff;
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.hobbies .points i {
-  font-size: 25px;
-  color: white;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #006996;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.hobbies .points h4 {
-  padding: 10px 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #050d18;
-}
-
-.hobbies .points .coding:hover i, .hobbies .points .gaming:hover i, .hobbies .points .running:hover i, .hobbies .points .coding:hover i, .hobbies .points .camping:hover i, .hobbies .points .taekwondo:hover i {
-  background: #d3374a;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  height: inherit;
   padding-bottom: 50px;
 }
 
