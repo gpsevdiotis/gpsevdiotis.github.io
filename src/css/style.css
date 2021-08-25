@@ -236,10 +236,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero p #two {
   color: #d3374a;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   letter-spacing: 1px;
   font-size: 26px;
-  border-bottom: 3px solid #white;
 }
 
 @media (min-width: 1024px) {
@@ -444,9 +443,23 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills #table {
+.skills{
+  display: flex;
+  
+}
+
+.skills .table {
   border-collapse: separate;
-  border-spacing: 0 30px;
+  border-spacing: 20px 30px;
+}
+
+.skills .table th{
+  
+  text-align: right;
+}
+
+.skills .table #td2{
+  text-align: right;
 }
 
 /*--------------------------------------------------------------
