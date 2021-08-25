@@ -471,7 +471,6 @@ section {
 
 .carousel-item img {
   position: absolute;
-  object-fit: cover;
   top: 0;
   left: 0;
   width: 100%;
@@ -479,6 +478,17 @@ section {
   min-height: 500px;
   object-fit: fill;
 }
+
+.carousel-item video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  min-height: 500px;
+  object-fit: fill;
+}
+
 
 .hobbies .points {
   padding: 30px;
@@ -518,14 +528,11 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 250px;
+  padding-bottom: 50px;
 }
 
 .contact .info {
-  padding: 30px;
-  background: #fff;
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 50px;
 }
 
 .contact .info i {
@@ -569,7 +576,7 @@ section {
   color: inherit;
   text-decoration: none;
 }
-}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
