@@ -443,35 +443,34 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills{
+.skills {
   display: flex;
-  height: 100vh;
 }
 
 .skills .table {
   border-collapse: separate;
   border-spacing: 20px 30px;
+  height: 100%;
 }
 
-.skills .table th{
-  
+.skills .table th {
   text-align: right;
 }
 
-.skills .table #td2{
+.skills .table #td2 {
   text-align: right;
 }
 
 /*--------------------------------------------------------------
 # hobbies
 --------------------------------------------------------------*/
-.hobbies{
+.hobbies {
   display: flex;
 }
+
 .carousel .carousel-item {
   height: 60vh;
 }
-
 
 .carousel-item video {
   position: absolute;
@@ -490,9 +489,6 @@ section {
   height: 600px;
   object-fit: fill;
 }
-
-
-
 
 .hobbies .points {
   padding: 30px;
@@ -580,7 +576,6 @@ section {
   color: inherit;
   text-decoration: none;
 }
-
 
 /*--------------------------------------------------------------
 # Breadcrumbs
