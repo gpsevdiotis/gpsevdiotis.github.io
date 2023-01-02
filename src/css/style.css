@@ -16,7 +16,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Comic Sans", sans-serif;
 }
 
@@ -53,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -122,7 +128,8 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -132,22 +139,28 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover>a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active:focus i {
+.nav-menu a:hover i,
+.nav-menu .active:focus i {
   color: #006996;
 }
 
-.nav-menu .active i, .nav-menu li:hover>a i {
+.nav-menu .active i,
+.nav-menu li:hover>a i {
   color: #d3374a;
 }
 
@@ -245,30 +258,30 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
+
   /* CSS */
   #hero {
     background-attachment: fixed;
   }
-  
+
   #hero h1 {
     margin: 500px 0 10px 0;
     font-size: 55px;
     line-height: 70px;
     padding-bottom: 10px;
   }
-  
+
   #hero p #one {
     font-size: 35px;
     line-height: 40px;
   }
-  
+
   #hero p #two {
     font-size: 40px;
     line-height: 40px;
   }
-  
-  
+
+
 }
 
 /* 
@@ -277,30 +290,30 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   /* CSS */
   #hero {
     background-attachment: fixed;
   }
-  
+
   #hero h1 {
     margin: 500px 0 10px 0;
     font-size: 55px;
     line-height: 70px;
     padding-bottom: 10px;
   }
-  
+
   #hero p #one {
     font-size: 35px;
     line-height: 40px;
   }
-  
+
   #hero p #two {
     font-size: 40px;
     line-height: 40px;
   }
-  
-  
+
+
 }
 
 /* 
@@ -309,29 +322,29 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+
   /* CSS */
   #hero {
     background-attachment: fixed;
   }
-  
+
   #hero h1 {
     margin: 400px 0 10px 0;
     font-size: 55px;
     line-height: 50px;
     padding-bottom: 10px;
   }
-  
+
   #hero p #one {
     font-size: 25px;
     line-height: 10px;
   }
-  
+
   #hero p #two {
     font-size: 30px;
     line-height: 10px;
   }
-  
+
 }
 
 /* 
@@ -340,24 +353,24 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+
   /* CSS */
   #hero {
     background-attachment: fixed;
   }
-  
+
   #hero h1 {
     margin: 200px 0 10px 0;
     font-size: 55px;
     line-height: 50px;
     padding-bottom: 10px;
   }
-  
+
   #hero p #one {
     font-size: 25px;
     line-height: 10px;
   }
-  
+
   #hero p #two {
     font-size: 30px;
     line-height: 10px;
@@ -370,24 +383,24 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
   /* CSS */
-  
+
   #hero {
     background-attachment: fixed;
   }
-  
+
   #hero h1 {
     margin: 200px 0 10px 0;
     font-size: 45px;
     line-height: 50px;
   }
-  
+
   #hero p #one {
     font-size: 20px;
     line-height: 10px;
   }
-  
+
   #hero p #two {
     font-size: 20px;
     line-height: 10px;
@@ -596,7 +609,8 @@ section {
   border: 2px solid #1f5297;
 }
 
-.resume a, a:hover {
+.resume a,
+a:hover {
   color: inherit;
   text-decoration: none;
 }
@@ -653,7 +667,7 @@ section {
   left: 0;
   width: 100%;
   height: 600px;
-  object-fit: fill;
+  object-fit: fit;
 }
 
 .hobbies .points {
@@ -685,7 +699,12 @@ section {
   color: #050d18;
 }
 
-.hobbies .points .coding:hover i, .hobbies .points .gaming:hover i, .hobbies .points .running:hover i, .hobbies .points .coding:hover i, .hobbies .points .camping:hover i, .hobbies .points .taekwondo:hover i {
+.hobbies .points .coding:hover i,
+.hobbies .points .gaming:hover i,
+.hobbies .points .running:hover i,
+.hobbies .points .coding:hover i,
+.hobbies .points .camping:hover i,
+.hobbies .points .taekwondo:hover i {
   background: #d3374a;
   color: #fff;
 }
@@ -733,12 +752,15 @@ section {
   font-size: 18px;
 }
 
-.contact .info .phone:hover i, .contact .info .whatsapp:hover i, .contact .info .email:hover i {
+.contact .info .phone:hover i,
+.contact .info .whatsapp:hover i,
+.contact .info .email:hover i {
   background: #d3374a;
   color: #fff;
 }
 
-.contact .info a, a:hover {
+.contact .info a,
+a:hover {
   color: inherit;
   text-decoration: none;
 }
