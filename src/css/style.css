@@ -754,9 +754,11 @@ a:hover {
 
 .contact .info .phone:hover i,
 .contact .info .whatsapp:hover i,
-.contact .info .email:hover i {
-  background: #d3374a;
-  color: #fff;
+.contact .info .email:hover i,
+.contact .info .discord:hover i,
+{
+background: #d3374a;
+color: #fff;
 }
 
 .contact .info a,
